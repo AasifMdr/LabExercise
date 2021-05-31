@@ -7,7 +7,7 @@ The program reads the numbers N and K. It should print the two answers for the q
 
 n=int(input('Number of students: '))
 k=int(input('Number of apples: '))
-remaining_apples=k%2
-apples_with_students=int(k/n)
-print(f'The remaining apples are {remaining_apples}')
+remaining_apples=k//n
+apples_with_students=k%n
+print(f'The remaining apples in basket are {remaining_apples}')
 print(f'The apples with students {apples_with_students}')
