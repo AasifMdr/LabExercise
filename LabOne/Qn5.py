@@ -19,6 +19,6 @@ if classb % 2 == 1:
 c = classc // 2
 if classc % 2 == 1:
     c = c + 1
-print(f'The first group has {classa} number of students so they require {a} desk ')
-print(f'The first group has {classb} number of students so they require {b} desk ')
-print(f'The first group has {classc} number of students so they require {c} desk ')
+print(f'The first group has {classa} number of students so they require {a} desks ')
+print(f'The first group has {classb} number of students so they require {b} desks ')
+print(f'The first group has {classc} number of students so they require {c} desks ')
