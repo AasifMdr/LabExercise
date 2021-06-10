@@ -7,7 +7,9 @@ For example, if N = 150, then 150 minutes have passed since midnight - i.e. now 
 So, the program should print 2 30.
 '''
 
-numberOfMinutes = int(input("Number of minutes passed since midnight: "))
-hours = numberOfMinutes // 60
-minutes = numberOfMinutes % 60
-print(hours, minutes)
+N = int(input("Number of minutes passed since midnight: "))
+hours = N // 60
+minutes = N % 60
+print(f'The hours is {hours}')
+print(f'The minutes is {minutes}')
+print(f'Its {hours}:{minutes} now')
