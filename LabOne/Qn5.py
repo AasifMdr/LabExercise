@@ -7,22 +7,11 @@ The program should read 3 int: the numb of sts in each of the 3 classes
 a, b and c resp.
 '''
 
-classa = int(input("Number of students in class A: "))
-classb = int(input("Number of students in class B: "))
-classc = int(input("Number of students in class C: "))
-
-a = classa // 2
-if classa % 2 == 1:
-    a = a + 1
-
-b = classb // 2
-if classb % 2 == 1:
-    b = b + 1
-
-c = classc // 2
-if classc % 2 == 1:
-    c = c + 1
-
-print(f'The first group has {classa} number of students so they require {a} desks ')
-print(f'The first group has {classb} number of students so they require {b} desks ')
-print(f'The first group has {classc} number of students so they require {c} desks ')
+import math
+Students_classA = int(input("Number of Students in class A: "))
+Students_classB = int(input("Number of Students in class B: "))
+Students_classC = int(input("Number of Students in class C: "))
+a = math.ceil((Students_classA/2))
+b = math.ceil((Students_classB/2))
+c = math.ceil((Students_classC/2))
+print(f"The number of desk required in total {a+b+c}.")
