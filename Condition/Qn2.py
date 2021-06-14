@@ -9,4 +9,4 @@ if temp > 30:
 elif temp < 10:
     print("It is a cold day")
 else:
-    print("Its neither hot or cold")
+    print("Its neither hot or cold.")
