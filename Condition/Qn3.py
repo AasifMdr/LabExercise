@@ -8,6 +8,6 @@ name = input("Enter your name: ")
 if len (name) < 3:
     print('The name must be at least 3 characters.')
 elif len(name) > 50:
-    print('The name must be maximum of 50 characters')
+    print('The name must be maximum of 50 characters.')
 else:
-    print('The name looks good')
+    print('The name looks good.')
