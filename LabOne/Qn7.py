@@ -7,9 +7,9 @@ Will this be quicker or slower than the bus?
 '''
 
 distance = 4
-total_time_bus = (4/25) * 0+(210)
+total_time_bus = ((4/25) * 60) + 20
 print(f"Time taken by bus to Uni {total_time_bus} minutes")
-total_time_jog = (4/(2 * (715) / (7+15))) * 60
+total_time_jog = ((1/7 * 60) + (2/15 * 60) + (1/7 * 60))
 print(f"Time taken to jogg to Uni {total_time_jog} minutes")
 if total_time_jog < total_time_bus:
     print(f"Therefore,its faster to jog to Uni")
