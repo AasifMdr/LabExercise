@@ -6,12 +6,12 @@ else convert it to kg.
 '''
 
 weight = int(input("Enter your weight: "))
-kg_lbs = input("Is the weight in kg or lbs? (kgs/lbs)?: ").upper()
-if kg_lbs == "kgs":
+kg_lbs = input("Is the weight in kg or lbs? (kg/lbs)?: ").upper()
+if kg_lbs == "KG":
     convert_weight = float(2.205 * weight)
-    print(f'The weight is in {convert_weight} kgs.')
-elif kg_lbs == "lbs":
-    convert_weight = float(weight / 2.205)
     print(f'The weight is in {convert_weight} lbs.')
+elif kg_lbs == "LBS":
+    convert_weight = float(weight / 2.205)
+    print(f'The weight is in {convert_weight} kgs.')
 else:
     print('The input is invalid.')
